@@ -26,6 +26,8 @@ class SplashController: BaseController<SplashLayout, SplashViewModel> {
         viewModel!.employess.bind(observeEmployees(_:))
         
         viewModel!.requestFetchEmployees(api: apiService)
+        
+        print("test")
     }
     
     
